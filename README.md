@@ -10,13 +10,13 @@ The aim of this project is to use analyse the dog traits and see if average bree
 # Statistical tests used
 In order to find the most effective model 9 different tests were done.
 
-![test matrix](Screen Shot 2019-12-12 at 4.17.07 PM.png)
+![test matrix](https://github.com/kmcnicoll/Classification_Tree_Dog_Breeds/blob/master/Pictures_For_Read_Me/Screen%20Shot%202019-12-12%20at%204.17.07%20PM.png)
 
 
 As you can see KNN preformed the best. 
 It was determined after a grid search that the best K value for nearest neightbors should be 7. Model lead to the following confusion matrix
 
-![confusion matrix for KNN](Screen Shot 2019-12-12 at 4.17.06 PM.png)
+![confusion matrix for KNN](https://github.com/kmcnicoll/Classification_Tree_Dog_Breeds/blob/master/Pictures_For_Read_Me/Screen%20Shot%202019-12-12%20at%204.21.06%20PM.png)
 
 # Limitations
 While interesting it must be understood that this project faced major limitations. For instance the total population orignated ad 132 rows and 9 classes which in and of itself prevents usable modeling. In addition that data on the breeds were all physical and no personality traits.
