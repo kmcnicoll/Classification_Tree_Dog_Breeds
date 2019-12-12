@@ -10,8 +10,16 @@ The aim of this project is to use analyse the dog traits and see if average bree
 # Statistical tests used
 In order to find the most effective model 9 different tests were done.
 
+![test matrix](Screen Shot 2019-12-12 at 4.17.07 PM.png)
+
 
 As you can see KNN preformed the best. 
+It was determined after a grid search that the best K value for nearest neightbors should be 7. Model lead to the following confusion matrix
 
-# Future Applications and Importance
-Gamma radation is not good for homosapiens. A cumulative exposure of 1000 mSv will cause deadly illness's such as cancer in 5/100 victims exposed years later. Our projects mission was to make sure New York States radation levels are safe and on par with eachother. Interestingly in May, in Rochester New York, radation levels were 3 times higher then everywhere else in the state. While it is still considered to be within safe levels it should still be looked into as it is radation in our drinking water.
+![confusion matrix for KNN](Screen Shot 2019-12-12 at 4.17.06 PM.png)
+
+# Limitations
+While interesting it must be understood that this project faced major limitations. For instance the total population orignated ad 132 rows and 9 classes which in and of itself prevents usable modeling. In addition that data on the breeds were all physical and no personality traits.
+
+# Conclusion
+While the test faced major limitations, a highly accurate prediction for Toy breed was attainible. This is most likely due to its small size. If more data can be attained and specific samples of dogs, it would be interesting to see if there are actually noticlble destinctions, from a data standpoint, on the differences between what is considered to be a Hound, Herding, or Terrier dog.
